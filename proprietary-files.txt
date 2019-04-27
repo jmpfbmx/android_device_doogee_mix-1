@@ -33,6 +33,9 @@ lib/libfs_mgr.so
 lib/libalsautils.so
 lib/libmediatek_exceptionlog.so
 lib/libril.so
+lib/hw/gatekeeper.trustkernel.so
+lib/hw/keystore.v1.trustkernel.so
+lib/hw/keystore.trustkernel.so
 lib/egl/libGLES_android.so
 lib/libext2_e2p.so
 lib/libext2fs.so
