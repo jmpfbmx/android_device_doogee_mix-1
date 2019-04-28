@@ -1,5 +1,5 @@
 # lineage os 14.1 for doogee mix
-# Doogee Mix - CM14.1
+# Doogee Mix - RR-NOUGAT
 
 Copyright 2019 - The Lineage-OS Project.
 
