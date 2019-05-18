@@ -212,8 +212,11 @@ TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 PRODUCT_COPY_FILES += system/core/rootdir/init.zygote64_32.rc:root/init.zygote64_32.rc
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.zygote=zygote64_32
 
+# SELinux
 BOARD_SEPOLICY_DIRS := \
-       $(LOCAL_PATH)/sepolicy
+	$(LOCAL_PATH)/sepolicy/common/basic \
+	$(LOCAL_PATH)/sepolicy/common/bsp \
+	$(LOCAL_PATH)/sepolicy/common/full \
 
 # Seccomp filter
 BOARD_SECCOMP_POLICY += $(LOCAL_PATH)/seccomp
