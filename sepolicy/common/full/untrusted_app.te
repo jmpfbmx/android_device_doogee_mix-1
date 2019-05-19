@@ -24,7 +24,6 @@ allow untrusted_app mtk_crossmount_service:service_manager find;
 # Operation: IR-Learning feature check-in
 # Purpose : Allow all untrusted_apps to find ConsumerIrExtraService
 # Package : com.mediatek.consumerir
-allow untrusted_app mtk_consumerir_service:service_manager find;
 
 # Date : W1537
 # Operation: M0 Migration
