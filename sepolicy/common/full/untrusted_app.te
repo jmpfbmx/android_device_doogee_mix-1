@@ -6,7 +6,6 @@
 # Operation : Testing with third party, e.g. Hugeland
 # Purpose : Allow third party app connects to md_monitor's local socket
 allow untrusted_app md_monitor:unix_stream_socket connectto;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 #3G/4G VT vtservice
 allow untrusted_app vtservice:dir search;
@@ -42,7 +41,6 @@ allow untrusted_app proc_sysrq:file getattr;
 allow untrusted_app sdcard_type:file execute;
 allow untrusted_app protect_f_data_file:dir getattr;
 allow untrusted_app protect_s_data_file:dir getattr;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : WK15.39
 # Operation : Migration
@@ -64,7 +62,6 @@ allow untrusted_app storage_stub_file:dir getattr;
 # Operation: Program binary service
 # Purpose : Add permission for program binary service find from ServiceManager.
 allow untrusted_app program_binary_service:service_manager find;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date: 2016/5/16
 # Operator: Allow eMBMS middleware install vzw SDK library
