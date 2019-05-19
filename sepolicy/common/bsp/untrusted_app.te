@@ -12,14 +12,12 @@ type exfat, sdcard_type, fs_type, mlstrustedobject;
 # Operation : TEEI Migration
 # Purpose : allow teei tester APK to use teei_client_device
 allow untrusted_app teei_client_device:chr_file write;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : 2014/09/04
 # Stage: BaseUT
 # Purpose :[Launcher2][View update graphics]
 # Package Name: com.android.launcher2
 allow untrusted_app guiext-server:binder { transfer call };
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : 2016/07/12
 # Operation : SQC
@@ -27,7 +25,6 @@ type exfat, sdcard_type, fs_type, mlstrustedobject;
 allow untrusted_app fuseblk:dir search;
 allow untrusted_app fuseblk:file read;
 allow untrusted_app fuseblk:file rw_file_perms;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : 2016/7/22
 # Operation: SQC
@@ -37,4 +34,3 @@ allow untrusted_app {fuse sdcardfs}:dir create_dir_perms;
 allow untrusted_app {fuse sdcardfs}:file create_file_perms;
 allow untrusted_app vfat:dir  {reparent rename rmdir setattr rw_dir_perms};
 allow untrusted_app vfat:file {rename setattr rw_file_perms};
-type exfat, sdcard_type, fs_type, mlstrustedobject;
