@@ -19,27 +19,23 @@ type exfat, sdcard_type, fs_type, mlstrustedobject;
 # Operation: CrossMount IT
 # Purpose : Allow untrusted app to find CrossMount
 allow untrusted_app mtk_crossmount_service:service_manager find;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : W1602
 # Operation: IR-Learning feature check-in
 # Purpose : Allow all untrusted_apps to find ConsumerIrExtraService
 # Package : com.mediatek.consumerir
 allow untrusted_app mtk_consumerir_service:service_manager find;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : W1537
 # Operation: M0 Migration
 # Purpose : Allow untrusted_app to find HotKnot
 # Package : com.mediatek.hotknot.service
 allow untrusted_app mtk_hotknot_service:service_manager find;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : WK14.46
 # Operation : Migration
 # Purpose : for MTK Emulator HW GPU
 allow untrusted_app qemu_pipe_device:chr_file rw_file_perms;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # CTS issue
 allow untrusted_app proc_lk_env:file getattr;
@@ -53,20 +49,17 @@ type exfat, sdcard_type, fs_type, mlstrustedobject;
 # Operation : Migration
 # Purpose : allow untrusted_app to find pq_service
 allow untrusted_app pq_service:service_manager { find };
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : WK15.48
 # Operation : Stress Test
 # Purpose : allow test APK to use MediaScannerService
 allow untrusted_app storage_stub_file:dir getattr;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : 2014/10/27
 # Operation : SQC
 # Purpose : [ALPS01785313] Permission denied for dump hprof
 # Package: com.android.gallery3d
 # allow untrusted_app anr_data_file:file rw_file_perms;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date: 2015/9/23
 # Operation: Program binary service
@@ -79,10 +72,8 @@ type exfat, sdcard_type, fs_type, mlstrustedobject;
 # Purpose: comply with Vzw eMBMS operator requirement
 allow untrusted_app embms_library_file:dir {search getattr};
 allow untrusted_app embms_library_file:file {read getattr open};
-type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date: 2016/5/16
 # Operator: New feature for eMBMS middleware integration
 # Purpose: allow vendor's eMBMS middleware APK to send AT-command via embmsd local socket
 unix_socket_connect(untrusted_app, rild_embms, rilproxy)
-type exfat, sdcard_type, fs_type, mlstrustedobject;
