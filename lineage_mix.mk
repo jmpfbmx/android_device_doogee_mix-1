@@ -21,7 +21,7 @@ PRODUCT_RELEASE_NAME := mix
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/doogee/mix/device_mix.mk)
+$(call inherit-product, device/doogee/mix/device.mk)
 # $(call inherit-product, device/doogee/mix/prop.mk)
 
 TARGET_SCREEN_HEIGHT := 1080
