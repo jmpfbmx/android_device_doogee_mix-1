@@ -6,8 +6,8 @@
 # Operation : WVL1 Modular DRM IT
 # Purpose : Allow svp client alloc sec mem
 allow untrusted_app proc_secmem:file { read ioctl open };
-type exfat, sdcard_type, fs_type, mlstrustedobject;
-type ntfs, sdcard_type, fs_type, mlstrustedobject;
+#type exfat, sdcard_type, fs_type, mlstrustedobject;
+#type ntfs, sdcard_type, fs_type, mlstrustedobject;
 
 
 # Date : WK15.42

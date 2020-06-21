@@ -12,7 +12,7 @@ allow untrusted_app vtservice:dir search;
 allow untrusted_app vtservice:file { read getattr open };
 allow untrusted_app mediaserver:dir search;
 allow untrusted_app mediaserver:file read;
-type exfat, sdcard_type, fs_type, mlstrustedobject;
+#type exfat, sdcard_type, fs_type, mlstrustedobject;
 
 # Date : W16.01
 # Operation: CrossMount IT
