@@ -1,16 +1,7 @@
-# lineage os 14.1 for doogee mix
-# Doogee Mix - RR-NOUGAT
+# android_device_doogee_mix
 
-Copyright 2019 - The Lineage-OS Project.
-
-=============
-
-# About Device
-
-Doogee Mix 4/6GB
-![Doogee Mix](https://www.notebookcheck.net/fileadmin/Notebooks/Doogee/Mix/61SfWTytpNL._SL1000_.jpg "Doogee Mix")
-
-### Specifications
+Device configuration for Doogee MIX
+====================================
 
 Component Type | Details
 -------:|:-------------------------
@@ -24,7 +15,21 @@ Display | 5.5" 720 x 1080 px DPI 294
 Rear Camera | 16MP+5MP-dummy camera,f/2.0
 Front Camera | 5MP
 
+![Doogee Mix](https://www.notebookcheck.net/fileadmin/Notebooks/Doogee/Mix/61SfWTytpNL._SL1000_.jpg "Doogee Mix")
 
+### Thanks to:
+   - xen0n 
+   - Zormax 
+   - darklord4822
+   - lalitjoshi06 
+   - Adryy
+   - olegsvs
+   - Decker
+   - danielhk
+   - mdeejay
+   - MAD
+   - SRT
+   - Bigbeefbaby
+   - Hyperion70
 
-Thanks to xen0n, Zormax, darklord4822, lalitjoshi06, Adryy, olegsvs, Decker, danielhk, mdeejay, MAD, SRT.
-
+And about everyone else in the MediaTek Community
