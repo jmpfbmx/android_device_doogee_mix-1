@@ -29,7 +29,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mix
-PRODUCT_NAME := rr_mix
+PRODUCT_NAME := lineage_mix
 PRODUCT_BRAND := doogee
 PRODUCT_MODEL := doogee_mix
 PRODUCT_MANUFACTURER := doogee
