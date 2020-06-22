@@ -202,19 +202,16 @@ PRODUCT_PACKAGES += \
 $(call add-product-dex-preopt-module-config,com.cyanogenmod.keyhandler,disable)
 
 # HW
-$(shell mkdir -p $(OUT)/system/lib64/hw; \
-    ln -sf gatekeeper.trustkernel.so /$(OUT)/system/lib64/hw/gatekeeper.hct6757_66_n.so; \
-    ln -sf gatekeeper.trustkernel.so /$(OUT)/system/lib64/hw/gatekeeper.mt6757.so; \
-    ln -sf keystore.trustkernel.so /$(OUT)/system/lib64/hw/keystore.hct6757_66_n.so; \
-    ln -sf keystore.trustkernel.so /$(OUT)/system/lib64/hw/keystore.mt6757.so; \
-    ln -sf keystore.v1.trustkernel.so /$(OUT)/system/lib64/hw/keystore.v1.hct6757_66_n.so; \
-    ln -sf keystore.v1.trustkernel.so /$(OUT)/system/lib64/hw/keystore.v1.mt6757.so)
+$(shell ln -sf gatekeeper.trustkernel.so out/target/product/mix/system/lib64/hw/gatekeeper.hct6757_66_n.so)
+$(shell ln -sf gatekeeper.trustkernel.so out/target/product/mix/system/lib64/hw/gatekeeper.mt6757.so)
+$(shell ln -sf keystore.trustkernel.so out/target/product/mix/system/lib64/hw/keystore.hct6757_66_n.so)
+$(shell ln -sf keystore.trustkernel.so out/target/product/mix/system/lib64/hw/keystore.mt6757.so)
+$(shell ln -sf keystore.v1.trustkernel.so out/target/product/mix/system/lib64/hw/keystore.v1.hct6757_66_n.so)
+$(shell ln -sf keystore.v1.trustkernel.so out/target/product/mix/system/lib64/hw/keystore.v1.mt6757.so)
 
-$(shell mkdir -p $(OUT)/system/lib/hw; \
-    ln -sf gatekeeper.trustkernel.so /$(OUT)/system/lib/hw/gatekeeper.hct6757_66_n.so; \
-    ln -sf gatekeeper.trustkernel.so /$(OUT)/system/lib/hw/gatekeeper.mt6757.so; \
-    ln -sf keystore.trustkernel.so /$(OUT)/system/lib/hw/keystore.hct6757_66_n.so; \
-    ln -sf keystore.trustkernel.so /$(OUT)/system/lib/hw/keystore.mt6757.so; \
-    ln -sf keystore.v1.trustkernel.so /$(OUT)/system/lib/hw/keystore.v1.hct6757_66_n.so; \
-    ln -sf keystore.v1.trustkernel.so /$(OUT)/system/lib/hw/keystore.v1.mt6757.so)
-
+$(shell ln -sf gatekeeper.trustkernel.so out/target/product/mix/system/lib/hw/gatekeeper.hct6757_66_n.so)
+$(shell ln -sf gatekeeper.trustkernel.so out/target/product/mix/system/lib/hw/gatekeeper.mt6757.so)
+$(shell ln -sf keystore.trustkernel.so out/target/product/mix/system/lib/hw/keystore.hct6757_66_n.so)
+$(shell ln -sf keystore.trustkernel.so out/target/product/mix/system/lib/hw/keystore.mt6757.so)
+$(shell ln -sf keystore.v1.trustkernel.so out/target/product/mix/system/lib/hw/keystore.v1.hct6757_66_n.so)
+$(shell ln -sf keystore.v1.trustkernel.so out/target/product/mix/system/lib/hw/keystore.v1.mt6757.so)
