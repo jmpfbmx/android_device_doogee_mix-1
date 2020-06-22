@@ -173,8 +173,6 @@ PRODUCT_PACKAGES += \
     libion
 
 # RIL
-BOARD_PROVIDES_LIBRIL := true
-BOARD_PROVIDES_RILD := true
 PRODUCT_PACKAGES += \
     libccci_util \
     librilmtk \
