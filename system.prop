@@ -6,6 +6,7 @@
 rild.libpath=mtk-ril.so
 rild.libargs=-d /dev/ttyC0
 ro.telephony.ril_class=MT6757
+ro.telephony.ril.config=fakeiccid
 
 
 # MTK, Infinity, 20090720 {
