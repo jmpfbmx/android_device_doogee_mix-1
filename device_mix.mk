@@ -176,9 +176,11 @@ PRODUCT_PACKAGES += \
 BOARD_PROVIDES_LIBRIL := true
 BOARD_PROVIDES_RILD := true
 PRODUCT_PACKAGES += \
-     libccci_util
-
-
+    libccci_util \
+    librilmtk \
+    librilmtkmd2 \
+    mtkrild \
+    rilproxy     
 
 # Telephony
 PRODUCT_COPY_FILES += \
