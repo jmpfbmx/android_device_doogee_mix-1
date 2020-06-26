@@ -30,9 +30,9 @@ TARGET_SCREEN_WIDTH := 720
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mix
 PRODUCT_NAME := lineage_mix
-PRODUCT_BRAND := doogee
+PRODUCT_BRAND := DOOGEE
 PRODUCT_MODEL := DOOGEE MIX
-PRODUCT_MANUFACTURER := doogee
+PRODUCT_MANUFACTURER := DOOGEE
 
 # Google client ID property.
 PRODUCT_GMS_CLIENTID_BASE := android-DOOGEE
