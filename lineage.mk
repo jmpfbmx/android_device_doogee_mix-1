@@ -31,7 +31,7 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_DEVICE := mix
 PRODUCT_NAME := lineage_mix
 PRODUCT_BRAND := doogee
-PRODUCT_MODEL := doogee_mix
+PRODUCT_MODEL := DOOGEE MIX
 PRODUCT_MANUFACTURER := doogee
 
 # Google client ID property.
