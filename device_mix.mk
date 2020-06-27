@@ -119,7 +119,7 @@ PRODUCT_PACKAGES += \
     libfmjni
     
 # Camera
-# PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     Snap
 
 # Disable adb security
