@@ -72,6 +72,7 @@ lib64/libgybeauty422.so
 lib64/libgybeauty420.so
 lib64/libgybeauty.so
 lib64/libarcsoft_beautyshot.so
+lib64/libhardware.so
 lib/egl/libGLES_android.so
 lib/libarcsoft_beautyshot.so
 lib/libgybeauty.so
@@ -98,6 +99,7 @@ lib/libreference-ril.so
 lib/libril.so
 lib/librilutils.so
 lib/libxml2.so
+lib/libhardware.so
 vendor/bin/aal
 vendor/bin/aee
 vendor/bin/aee_archive
