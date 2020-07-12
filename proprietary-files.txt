@@ -67,7 +67,17 @@ lib64/libreference-ril.so
 lib64/libril.so
 lib64/librilutils.so
 lib64/libxml2.so
+lib64/libmpbase.so
+lib64/libgybeauty422.so
+lib64/libgybeauty420.so
+lib64/libgybeauty.so
+lib64/libarcsoft_beautyshot.so
 lib/egl/libGLES_android.so
+lib/libarcsoft_beautyshot.so
+lib/libgybeauty.so
+lib/libgybeauty420.so
+lib/libgybeauty422.so
+lib/libmpbase.so
 lib/libalsautils.so
 lib/libdcfdecoderjni.so
 lib/libext2_blkid.so
