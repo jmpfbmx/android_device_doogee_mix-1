@@ -992,4 +992,5 @@ vendor/lib/mtk-rilmd2.so
 vendor/lib/mtk-rilproxy.so
 vendor/lib/mtk-ril.so
 vendor/lib/volte_imsm.so
-
+vendor/lib/lib_uree_mtk_video_secure_al.so
+vendor/lib/drm/libdrmctaplugin.so
